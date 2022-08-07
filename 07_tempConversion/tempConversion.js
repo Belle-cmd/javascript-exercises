@@ -1,5 +1,6 @@
-const ftoc = function() {
-
+const ftoc = function(fahrenheit) {
+  let output = (fahrenheit - 32) * (5/9);
+  return Math.round(output * 10) / 10;
 };
 
 const ctof = function() {
